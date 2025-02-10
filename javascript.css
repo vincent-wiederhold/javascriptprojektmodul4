@@ -138,10 +138,54 @@ h1 {
 
 
 
+#stoerrelsedropdown {
+    /*position: relative;
+    display: inline-block;*/
+}
 
+.stoerrelseknap {
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 10px;
+    /*font-weight: 200;*/
+    border: 2px solid black;
+    border-radius: 10px;
+    min-width: 120px;
+}
 
+.stoerrelseknap:hover {
+    background-color: black;
+    color: white;
+}
 
+.stoerrelserClass {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    min-width: 120px;
+    z-index: 1;
+    background-color: #f2f2f2;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+}
 
+.stoerrelserClass p {
+    /*display: block;*/
+    font-size: 11px;
+    padding: 10px;
+    /*font-weight: 500;*/
+}
+
+.stoerrelserClass P:hover {
+    background-color: black;
+    color: white;
+}
+
+.show {
+    display: block;
+}
 
 
 
