@@ -66,6 +66,7 @@ h1 {
     margin-right: 8px;
     border-radius: 3px;
 }
+
 .horisontalt{
     display: flex;
     flex-direction: row;
@@ -84,6 +85,61 @@ h1 {
     width: 179px;
     height: 64px;
 }
+
+/*fjener texdecoration under link*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Kurv hoover effect*/
+a:hover {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px;
+  }
+
+.kurvheader{
+    grid-template-columns: repeat(9, 1fr);
+    gap: 30px;
+    z-index: 1;
+    padding-bottom: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 11px;
+    color: #9e9e9e;
+    justify-content: space-between;
+}
+
+.kurvheader__indhold{
+
+    grid-template-columns: repeat(9, 1fr);
+    gap: 30px;
+    z-index: 1;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 11px;
+    color: #000000;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
