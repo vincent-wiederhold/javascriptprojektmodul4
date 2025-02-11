@@ -134,31 +134,45 @@ a:hover {
 
 /*Andreas*/
 
+/* New wrapper to control alignment */
+.slideshow-wrapper {
+    display: flex;
+    justify-content: flex-end; /* Aligns slideshow to the right */
+   
+}
+
+/* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
+    position: relative; /* Important for button positioning */
+    margin: 0;
+    
+}
 
-/* Next & previous buttons */
+/* Navigation buttons */
 .prev, .next {
     cursor: pointer;
-    position: absolute;
-    margin-top: 300px;
+    position: absolute; /* Relative to slideshow-container */
+    top: 50%;
+    transform: translateY(-50%);
     padding: 16px;
-    color: rgb(24, 45, 185);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 18px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     user-select: none;
-    border: 2px solid #000000;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 150px;
-    border-radius: 10px 10px 10px 10px;
-  }
+    transition: 0.1s;
+
+}
+
+/* Button positions */
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 220px;
+}
 
 /*Frederik*/
 
