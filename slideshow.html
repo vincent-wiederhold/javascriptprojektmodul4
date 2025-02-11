@@ -1,8 +1,17 @@
 <script src="slideshow.js" defer></script>
 <link rel="stylesheet" href="javascript.css">
 
-<img class="stortbillede" src="images/pantsfront.png" alt="billeder">
-<div class="horisontalt">
-    <div class="borderbox"><img src="images/pantsfront.png" alt="bukserforfra" class="lillebillede"></div>
-    <div class="borderbox"><img src="images/pantsback.png" alt="bukserbagfra" class="lillebillede"></div>
-</div>
+<div class="slideshow-wrapper">
+    <div class="slideshow-container">
+      <div class="forfra">
+        <img src="images/pantsfront.png" class="stortbillede">
+      </div>
+  
+      <div class="bagfra">
+        <img src="images/pantsback.png" class="stortbillede">
+      </div>
+  
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+  </div>

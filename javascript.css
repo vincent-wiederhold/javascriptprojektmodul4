@@ -1,5 +1,5 @@
 *{
-    font-family: "HaasGrotesk", Helvetica, sans-serif;
+    font-family: "HaasGrotesk", Helvetica, sans-serif; margin: 0;
 }
 /*Vincent*/
 .ulvenstre{
@@ -99,7 +99,7 @@ a:hover {
     margin: 5px;
   }
 
-.kurvheader{
+/*.kurvheader{
     grid-template-columns: repeat(9, 1fr);
     gap: 30px;
     z-index: 1;
@@ -127,13 +127,37 @@ a:hover {
     justify-content: space-between;
 }
 
+.kurvheader__indhold--img{
+    max-width: 100px;
+    height: auto;
+}*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
 
+  .storeflex{
+    display: flex;
+    flex-direction: row;
+  }
 
-
-
-
-
-
+  .checkoutbutton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
 
 
@@ -151,23 +175,46 @@ a:hover {
 
 /*Andreas*/
 
+/* New wrapper to control alignment */
+.slideshow-wrapper {
+    display: flex;
+    justify-content: right; /* Aligns slideshow to the right */
+    flex-direction: row;
 
+}
 
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative; /* Important for button positioning */
+    margin: 0;
+    
+}
 
+/* Navigation buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute; /* Relative to slideshow-container */
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    user-select: none;
+    transition: 0.1s;
 
+}
 
+/* Button positions */
+.prev {
+    left: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.next {
+    right: 220px;
+}
 
 /*Frederik*/
 
@@ -225,6 +272,7 @@ a:hover {
 #stoerrelsedropdown {
     /*position: relative;
     display: inline-block;*/
+    margin: 8px;
 }
 
 .stoerrelseknap {
@@ -260,6 +308,7 @@ a:hover {
     font-size: 11px;
     padding: 10px;
     /*font-weight: 500;*/
+    cursor: pointer;
 }
 
 .stoerrelserClass P:hover {
@@ -269,4 +318,8 @@ a:hover {
 
 .show {
     display: block;
+}
+
+.hide {
+    display: none;
 }
