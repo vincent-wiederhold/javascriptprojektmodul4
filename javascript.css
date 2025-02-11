@@ -1,5 +1,5 @@
 *{
-    font-family: "HaasGrotesk", Helvetica, sans-serif;
+    font-family: "HaasGrotesk", Helvetica, sans-serif; margin: 0;
 }
 /*Vincent*/
 .ulvenstre{
@@ -192,11 +192,11 @@ a:hover {
 
 
 
-
+/*
 #stoerrelsedropdown {
     /*position: relative;
-    display: inline-block;*/
-}
+    display: inline-block;
+}*/
 
 .stoerrelseknap {
     background-color: #ffffff;
@@ -207,6 +207,7 @@ a:hover {
     border: 2px solid black;
     border-radius: 10px;
     min-width: 120px;
+    
 }
 
 .stoerrelseknap:hover {
@@ -231,6 +232,7 @@ a:hover {
     font-size: 11px;
     padding: 10px;
     /*font-weight: 500;*/
+    cursor: pointer;
 }
 
 .stoerrelserClass P:hover {
