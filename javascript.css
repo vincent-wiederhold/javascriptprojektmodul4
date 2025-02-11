@@ -137,8 +137,8 @@ a:hover {
 /* New wrapper to control alignment */
 .slideshow-wrapper {
     display: flex;
-    justify-content: flex-end; /* Aligns slideshow to the right */
-   
+    justify-content: right; /* Aligns slideshow to the right */
+    flex-direction: row;
 }
 
 /* Slideshow container */
