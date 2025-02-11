@@ -198,11 +198,12 @@ a:hover {
 
 
 
-/*
+
 #stoerrelsedropdown {
     /*position: relative;
-    display: inline-block;
-}*/
+    display: inline-block;*/
+    margin: 8px;
+}
 
 .stoerrelseknap {
     background-color: #ffffff;
@@ -213,7 +214,6 @@ a:hover {
     border: 2px solid black;
     border-radius: 10px;
     min-width: 120px;
-    
 }
 
 .stoerrelseknap:hover {
@@ -248,4 +248,8 @@ a:hover {
 
 .show {
     display: block;
+}
+
+.hide {
+    display: none;
 }
