@@ -1,51 +1,47 @@
 /*document.getElementById("plusknap").addEventListener("click", addOne);
 
-function addOne() {
+function addOne(n) {
     let x = parseInt(document.getElementById("antal").value);
     let result = x + 1;
     document.getElementById("antal").value = result;
+    if(n > 10) {antal = 10}
+    if(n < 1) {antal}
 }
 
-/*document.getElementById("minusknap").addEventListener("click", subtractOne);
-
-function subtractOne() {
-    let x = parseInt(document.getElementById("antal").value);
-    let result = x - 1;
-    document.getElementById("antal").value = result;
-}
-document.getElementById("minusknap").addEventListener("click", subtractBuks);
-
-function subtractBuks() {
-    let x = parseInt(document.getElementById("antal").value);
-    let buks = parseInt(document.getElementById("buks").value); // Get the amount to subtract
-    let result = x - buks; // Subtract the value of 'buks'
-    document.getElementById("antal").value = result;
-}
-
-
-*/
-// Add event listener for the plus button
-document.getElementById("plusknap").addEventListener("click", addOne);
-
-// Add event listener for the minus button
-document.getElementById("minusknap").addEventListener("click", subtractBuks);
-
-function addOne() {
-    let x = parseInt(document.getElementById("antal").value) || 0; // Default to 0 if empty
-    let result = x + 1;
-    document.getElementById("antal").value = result;
-}
-
-function subtractBuks() {
-    let x = parseInt(document.getElementById("antal").value) || 0; // Default to 0 if empty
-    let buks = parseInt(document.getElementById("buks").value) || 1; // Default to 1 if empty
-
-    let result = x - buks;
-    
-    // Prevent negative values
-    if (result < 0) {
-        result = 0;
+function visBilleder(n) {
+    let i;
+    let slides = document.getElementsByClassName("stortbillede");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      console.log("det virker"+i)
+      slides[i].style.display = "none";  
     }
+    slides[slideIndex-1].style.display = "block";  
+  }*/
+    document.getElementById("plusknap").addEventListener("click", addOne);
 
-    document.getElementById("antal").value = result;
-}
+    function addOne() {
+        let x = parseInt(document.getElementById("antal").value); // Get the current value
+        let maksGraense = 9; // Set a maximum limit for display "9+"
+        let antalForoegelser = 1; // The number of times you want to increment (you can change this)
+    
+        // Loop to increment the value multiple times
+        for (let i = 0; i < antalForoegelser; i++) {
+            if (x < maksGraense) {
+                x += 1; // Increment the value by 1 if under the limit
+            } else {
+                // If value exceeds or equals the max limit, stop incrementing
+                break; // Exit the loop once maxLimit is reached
+            }
+        }
+    
+        // Update the input field with the incremented value or "9+" if the limit is reached
+        if (x >= maksGraense) {
+            document.getElementById("antal").value = "9+"; // Set to 9+ if we reach the max limit
+        } else {
+            document.getElementById("antal").value = x; // Otherwise, set the incremented number
+        }
+    }
+    
+    
