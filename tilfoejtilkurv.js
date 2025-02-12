@@ -14,7 +14,7 @@
             productDiv.className = 'product';
             productDiv.innerHTML = `
                 <span>${product.name} - $${product.price}</span>
-                <button onclick="addToCart(${product.id})">Add to Cart</button>
+                <button onclick="addToCart(${product.id})">Tilføj til kurv</button>
             `;
             productList.appendChild(productDiv);
         });
@@ -22,7 +22,7 @@
 
     function addToCart(productId) {
         cartCount++;
-        document.getElementById('cartCount').innerText = cartCount;
+        document.getElementById('kurv').innerText = cartCount;
         alert(`Product ${productId} Tilføjet til kurv`);
     }
 
