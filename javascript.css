@@ -148,6 +148,7 @@ table {
   .storeflex{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
 
   .checkoutbutton{
@@ -176,26 +177,26 @@ table {
 
 /*Andreas*/
 
-/* New wrapper to control alignment */
+
 .slideshow-wrapper {
     display: flex;
-    justify-content: right; /* Aligns slideshow to the right */
+    justify-content: right; 
     flex-direction: row;
 
 }
 
-/* Slideshow container */
+
 .slideshow-container {
     max-width: 1000px;
-    position: relative; /* Important for button positioning */
+    position: relative; 
     margin: 0;
     
 }
 
-/* Navigation buttons */
+
 .prev, .next {
     cursor: pointer;
-    position: absolute; /* Relative to slideshow-container */
+    position: absolute; 
     top: 50%;
     transform: translateY(-50%);
     padding: 16px;
@@ -208,7 +209,6 @@ table {
 
 }
 
-/* Button positions */
 .prev {
     left: 20px;
 }
