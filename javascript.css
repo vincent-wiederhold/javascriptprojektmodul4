@@ -132,7 +132,6 @@ a:hover {
     height: auto;
 }*/
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
@@ -151,6 +150,30 @@ table {
     flex-direction: row;
     justify-content: space-around;
   }
+
+  .checkoutbutton{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Andreas*/
 
@@ -196,6 +219,34 @@ table {
 
 /*Frederik*/
 
+.add-to-cart {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+.add-to-cart:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000;
+    border: 2px solid black;
+}
+
+.add-to-cart:active {
+    background-color: #ffffff;
+    border: #000;
+    border-radius: 5px;
+    color: #000;
+}
 
 
 
@@ -242,7 +293,7 @@ table {
 }
 
 .stoerrelserClass {
-    display: none;
+    /*display: none;*/
     position: absolute;
     overflow: auto;
     min-width: 120px;
@@ -259,17 +310,19 @@ table {
     padding: 10px;
     /*font-weight: 500;*/
     cursor: pointer;
+    border: 1px solid black;
+    text-align: end;
 }
 
 .stoerrelserClass P:hover {
     background-color: black;
     color: white;
 }
-
+/*
 .show {
     display: block;
 }
 
 .hide {
     display: none;
-}
+}*/
