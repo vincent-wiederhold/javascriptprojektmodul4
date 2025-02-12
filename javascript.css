@@ -222,16 +222,17 @@ table {
 .add-to-cart {
     background-color: #000;
     color: #fff;
-    border: none;
+    border: 2px solid black;
     padding: 12px 20px;
-    font-size: 16px;
+    font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+    min-width: 130px;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    border-radius: 5px;
+    border-radius: 10px;
     display: block;
-    margin: 10px 10px 10px 10px;
+   margin-left: 30px;
 }
 
 .add-to-cart:hover {
@@ -275,6 +276,8 @@ table {
     display: inline-block;*/
 display: flex;
 flex-direction: row;
+margin-bottom: 30px;
+margin-top: 30px;
     
 }
 
@@ -282,7 +285,7 @@ flex-direction: row;
     background-color: #ffffff;
     cursor: pointer;
     font-size: 11px;
-    padding: 10px;
+    padding: 12px 20px;
     /*font-weight: 200;*/
     border: 2px solid black;
     border-radius: 10px;
@@ -299,7 +302,7 @@ flex-direction: row;
     /*display: none;*/
     position: absolute;
     overflow: auto;
-    min-width: 120px;
+    min-width: 130px;
     z-index: 1;
     background-color: #f2f2f2;
     border: 2px solid black;
