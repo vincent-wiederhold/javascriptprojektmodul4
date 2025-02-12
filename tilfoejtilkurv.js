@@ -11,10 +11,10 @@
         const productList = document.getElementById('productList');
         products.forEach(product => {
             const productDiv = document.createElement('div');
-            productDiv.className = 'product';
+            productDiv.className = 'buks';
             productDiv.innerHTML = `
                 <span>${product.name} - $${product.price}</span>
-                <button onclick="addToCart(${product.id})">Tilføj til kurv</button>
+                <button onclick="add-to-cart(${product.id})">Tilføj til kurv</button>
             `;
             productList.appendChild(productDiv);
         });
@@ -22,7 +22,7 @@
 
     function addToCart(productId) {
         cartCount++;
-        document.getElementById('kurv').innerText = cartCount;
+        document.getElementById('buks').innerHTML = cartCount;
         alert(`Product ${productId} Tilføjet til kurv`);
     }
 
