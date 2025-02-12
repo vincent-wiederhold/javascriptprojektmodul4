@@ -152,6 +152,7 @@ table {
 
   .checkoutbutton{
     background-color: black;
+    border-radius: 5px;
     color: white;
     border: none;
     padding: 10px 20px;
