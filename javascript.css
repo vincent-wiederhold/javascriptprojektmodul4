@@ -231,7 +231,7 @@ table {
     transition: background-color 0.3s ease, transform 0.2s ease;
     border-radius: 5px;
     display: block;
-    margin: 20px auto;
+    margin: 10px 10px 10px 10px;
 }
 
 .add-to-cart:hover {
