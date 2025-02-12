@@ -292,7 +292,7 @@ table {
 }
 
 .stoerrelserClass {
-    display: none;
+    /*display: none;*/
     position: absolute;
     overflow: auto;
     min-width: 120px;
@@ -309,17 +309,19 @@ table {
     padding: 10px;
     /*font-weight: 500;*/
     cursor: pointer;
+    border: 1px solid black;
+    text-align: end;
 }
 
 .stoerrelserClass P:hover {
     background-color: black;
     color: white;
 }
-
+/*
 .show {
     display: block;
 }
 
 .hide {
     display: none;
-}
+}*/
