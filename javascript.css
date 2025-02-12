@@ -270,10 +270,12 @@ table {
 
 
 
-#stoerrelsedropdown {
+.knapletter {
     /*position: relative;
     display: inline-block;*/
-    margin: 8px;
+display: flex;
+flex-direction: row;
+    
 }
 
 .stoerrelseknap {
