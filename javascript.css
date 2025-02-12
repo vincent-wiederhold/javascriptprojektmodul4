@@ -284,7 +284,8 @@ table {
     /*font-weight: 200;*/
     border: 2px solid black;
     border-radius: 10px;
-    min-width: 120px;
+    min-width: 130px;
+    text-align: end;
 }
 
 .stoerrelseknap:hover {

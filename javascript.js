@@ -5,3 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     $("#tilfoejtilkurv").load("tilfoejtilkurv.html");
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    $("#stoerrelsedropdown").load("stoerrelsedropdown.html");
+});
