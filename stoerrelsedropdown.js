@@ -23,8 +23,8 @@ function chooseSize () {
 }
 
 /*Når man klikker uden for dropdown-boksen, så vil den lukke sig sammen*/
-window.addEventListener('click', function(e) {
-    if (!document.getElementById('stoerrelser').contains(e.target) && (!document.getElementById('stoerrelsedropdown').contains(e.target))) {
+window.addEventListener('click', function(klik) {
+    if (!document.getElementById('stoerrelser').contains(klik.target) && (!document.getElementById('stoerrelsedropdown').contains(klik.target))) {
         document.getElementById('stoerrelser').style.display = "none";
     }
 })
