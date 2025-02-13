@@ -1,3 +1,4 @@
+    let cart = [];
 
     document.getElementById("tilfoejtilkurv").addEventListener("click", addOne);
 
@@ -9,6 +10,7 @@
         for (let i = 0; i < antalTilforoejelser; i++) {
             if (x < maxvaerdi) {
                 x += 1;
+                cart.push(x);
             } else {
                 break;
             }
@@ -18,6 +20,7 @@
         } else {
             document.getElementById("kurvtal").value = x;
         }
+        console.log(cart);
     }
     
     
