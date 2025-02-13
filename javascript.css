@@ -101,39 +101,6 @@ a:hover {
     border-radius: 3px;
     margin: 5px;
   }
-
-/*.kurvheader{
-    grid-template-columns: repeat(9, 1fr);
-    gap: 30px;
-    z-index: 1;
-    padding-bottom: 10px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    font-size: 11px;
-    color: #9e9e9e;
-    justify-content: space-between;
-}
-
-.kurvheader__indhold{
-
-    grid-template-columns: repeat(9, 1fr);
-    gap: 30px;
-    z-index: 1;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    font-size: 11px;
-    color: #000000;
-    justify-content: space-between;
-}
-
-.kurvheader__indhold--img{
-    max-width: 100px;
-    height: auto;
-}*/
 table {
     border-collapse: collapse;
     width: 100%;
@@ -169,21 +136,7 @@ z-index: 2;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*Andreas*/
-
-
 .slideshow-wrapper {
     display: flex;
     justify-content: right; 
@@ -223,8 +176,8 @@ z-index: 2;
     right: 220px;
 }
 
-/*Frederik*/
 
+/*Frederik*/
 .add-to-cart {
     background-color: #000;
     color: #fff;
@@ -266,27 +219,7 @@ z-index: 2;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Sebastian*/
-
-
-
-
 .knapletter {
     /*position: relative;
     display: inline-block;*/
@@ -340,11 +273,3 @@ margin-top: 30px;
     background-color: black;
     color: white;
 }
-/*
-.show {
-    display: block;
-}
-
-.hide {
-    display: none;
-}*/
