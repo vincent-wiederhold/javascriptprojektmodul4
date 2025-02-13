@@ -251,8 +251,13 @@ table {
 
 #kurvtal{
     border: none;
-    color: red;
-    
+    color:white;
+    font-weight: bold;
+    border-radius: 999px;
+    width: fit-content;
+    margin-left: 5px;
+    background-color:black;
+    justify-content: center;
 }
 
 
