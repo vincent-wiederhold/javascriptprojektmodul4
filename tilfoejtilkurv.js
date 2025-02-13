@@ -1,10 +1,4 @@
 
-    let products = [
-        { id: 1, name: "DRS DENIM", price: 1125 },
-        { id: 2, name: "DRS DENIM", price: 1125 },
-        { id: 3, name: "DRS DENIM", price: 1125 }
-    ];
-
     document.getElementById("tilfoejtilkurv").addEventListener("click", addOne);
 
     function addOne() {
