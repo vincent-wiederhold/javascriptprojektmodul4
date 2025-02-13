@@ -221,12 +221,10 @@ z-index: 2;
 
 /*Sebastian*/
 .knapletter {
-    /*position: relative;
-    display: inline-block;*/
-display: flex;
-flex-direction: row;
-margin-bottom: 30px;
-margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 30px;
     
 }
 
@@ -235,7 +233,6 @@ margin-top: 30px;
     cursor: pointer;
     font-size: 11px;
     padding: 12px 20px;
-    /*font-weight: 200;*/
     border: 2px solid black;
     border-radius: 10px;
     min-width: 130px;
@@ -248,7 +245,6 @@ margin-top: 30px;
 }
 
 .stoerrelserClass {
-    /*display: none;*/
     position: absolute;
     overflow: auto;
     min-width: 130px;
@@ -260,10 +256,8 @@ margin-top: 30px;
 }
 
 .stoerrelserClass p {
-    /*display: block;*/
     font-size: 11px;
     padding: 10px;
-    /*font-weight: 500;*/
     cursor: pointer;
     border: 1px solid black;
     text-align: end;
