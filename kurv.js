@@ -43,5 +43,3 @@ function visBilleder(n) {
             document.getElementById("antal").value = x; // Otherwise, set the incremented number
         }
     }
-    
-    
