@@ -9,3 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     $("#stoerrelsedropdown").load("stoerrelsedropdown.html");
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    $("#kurv").load("kurv.html");
+});
