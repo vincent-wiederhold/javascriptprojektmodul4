@@ -6,21 +6,21 @@ function addOne() {
     let maksGraense = 9; // sætter en maks begrænsning på "9+"
     let antalForoegelser = 1; // det antal som kurven stiger med pr. click.
 
-    // Loop to increment the value multiple times
+    // Loop
     for (let i = 0; i < antalForoegelser; i++) {
         if (x < maksGraense) {
-            x += 1; // Increment the value by 1 if under the limit
+            x += 1; // forøgelse med 1
         } else {
-            // If value exceeds or equals the max limit, stop incrementing
-            break; // Exit the loop once maxLimit is reached
+            // Når den når til maksgrænse, stop forøgelse
+            break; // Stop loop når maksgrænsen er nået
         }
     }
 
-    // Update the input field with the incremented value or "9+" if the limit is reached
+    // Opdater inpiutfeltet sådan at der står "9+", når maksgrænsen er nået.
     if (x >= maksGraense) {
-        document.getElementById("antal").value = "9+"; // Set to 9+ if we reach the max limit
+        document.getElementById("antal").value = "9+";
     } else {
-        document.getElementById("antal").value = x; // Otherwise, set the incremented number
+        document.getElementById("antal").value = x; // Ellers vis det aktuelle nummer
     }
 }
 
