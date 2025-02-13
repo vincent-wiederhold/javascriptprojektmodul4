@@ -22,14 +22,14 @@ function visBilleder(n) {
     document.getElementById("plusknap").addEventListener("click", addOne);
 
     function addOne() {
-        let y = parseInt(document.getElementById("antal").value); // Get the current value
+        let x = parseInt(document.getElementById("antal").value); // Get the current value
         let maksGraense = 9; // Set a maximum limit for display "9+"
         let antalForoegelser = 1; // The number of times you want to increment (you can change this)
     
         // Loop to increment the value multiple times
         for (let i = 0; i < antalForoegelser; i++) {
-            if (y < maksGraense) {
-                y += 1; // Increment the value by 1 if under the limit
+            if (x < maksGraense) {
+                x += 1; // Increment the value by 1 if under the limit
             } else {
                 // If value exceeds or equals the max limit, stop incrementing
                 break; // Exit the loop once maxLimit is reached
@@ -44,3 +44,4 @@ function visBilleder(n) {
         }
     }
 
+    
