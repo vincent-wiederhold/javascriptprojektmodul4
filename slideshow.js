@@ -8,11 +8,6 @@ function nySlide(n) {
   visBilleder(slideIndex += n);
 }
 
-//aktuelleSlide (n) viser så den slide, som slideIndex har sat som n.
-function aktuelleSlide(n) {
-  visBilleder(slideIndex = n);
-}
-
 //slides-variablen indeholder nu mine to billeder, der har classen "stortbillede". 
 //Hvis n bliver større end længden på slides, altså 2, så går den tilbage til første billede på slideIndex. 
 //Hvis n er mindre end 1, så viser den sidste slide.
